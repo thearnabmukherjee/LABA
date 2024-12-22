@@ -1,0 +1,187 @@
+@charset "ISO-8859-1";
+
+
+.top_container
+{
+	margin-top:130px
+}
+.search_
+{
+	max-width:1100px;
+	margin-bottom:1rem;
+}
+.search_bottom
+{
+	 background: #00bf86;
+    color:#fff;
+   	width:12rem;
+}
+.search_bottom:hover
+{
+
+    color:#000;
+
+}
+.card_
+{
+	padding-right:0px !important;
+  padding-left:0px !important;
+  margin-bottom:14px;
+  max-width:300px;
+  height:450px;
+  
+}
+
+.card-bodyi
+{
+	padding:0px !important;
+	text-decoration:none;
+	max-height:370px;
+}
+.card-bodyi:hover
+{
+	 text-decoration:none;
+     color:#FF8000 !important;
+	
+}
+.card_img
+{
+	margin: 1rem 0rem 0.3rem 0rem;
+	height:15rem;
+	object-fit: contain;
+}
+
+.card_title
+{
+	margin:0;
+    margin-top:8px;
+    font-size: 1.7rem;
+    color:#000;
+}
+.card_title_author
+{
+     font-size:1.2rem;
+     margin:0px;
+     color:#000;
+}
+.card_price
+{
+	font-size: 1.5rem;
+    color:#FF8000 !important;
+    margin:0px !important;
+}
+.card_a_c_div
+{
+	margin-bottom:0.2rem;
+	margin-top:0.5rem;
+}
+.card_a_c_button
+{
+	background: #00bf86;
+    color:#fff;
+   	width:15rem;
+   	
+}
+.card_a_c_button:hover
+{
+	color:#000;
+}
+    
+    .card_alert
+{
+	
+	padding:0px !important;
+	margin:0px !important;
+	boder:none !important;
+	max-height:30px;
+	
+}
+.card_alert_text
+{
+	margin:0px;
+	font-size:1rem;
+} 
+	/* dont touch this */ 
+@media (max-width: 767.98px) { 
+
+	.top_container
+{
+	
+	margin-top:110px;
+	
+}
+
+.search_
+{
+	padding:0rem 0.1rem 0rem 0.1rem;
+	margin-bottom:1rem;
+}
+.search_bottom
+{
+	 background: #00bf86;
+    color:#fff;
+   	width:12rem;
+   	font-size:0.9rem;
+   	
+}
+	.card_
+{
+	max-width:165px;
+	height:415px;
+  
+}
+	.card_img
+{
+	margins: 0rem 0.5rem 0.2rem 0.5rem ;
+	height:15rem;
+	max-width:150px
+}
+
+.card-bodyi
+{
+	padding:0px !important;
+	max-height:335px;
+	margin-bottom:0px !important;
+	
+}
+.card_title
+{
+	margin-top:0px;
+    font-size: 1.2rem;
+}
+.card_title_author
+{
+   
+    font-size: 0.95rem;
+}
+.card_a_c_div
+{
+	margin-bottom:0.2rem;
+	margin-top:0.5rem;
+}
+.card_a_c_button
+{
+	 width:9rem;
+     font-size:18px;
+     
+}
+.card_price
+{
+	margin:0px !important;
+
+	}
+.card_alert
+{
+	
+	padding:0px !important;
+	margin:0px !important;
+	boder:none !important;
+	max-height:23px;
+	
+}
+.card_alert_text
+{
+	margin:0px;
+	font-size:0.8rem;
+}
+}
